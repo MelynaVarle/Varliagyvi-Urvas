@@ -32,21 +32,83 @@ footer {
 
 h1 {
     text-align: center;
-    color: #ab008fd1;
+    color: #fff;
 }
 
+.tr {
+    text-indent: +15px;
+}
 
-/* Fixed Navigation Bar */
+.guide1 {
+  color: purple;
+}
+
+.guide2 {
+  color: purple;
+}
+
+.indexmain {
+  color: rgb(178, 0, 178);
+  text-align: center;
+
+}
+
+.h1main {
+  color: rgb(156, 0, 156);
+  text-align: center;
+}
+
+.container {
+  overflow-y: auto;
+  height: 130px;
+}
+
+th {
+  position: sticky;
+  top: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+table tr:nth-child(2n+1) td {
+  border-bottom-width: 4px;
+}
+
+table tr:nth-child(2n) td:nth-child(1) {
+    border-bottom-width: 4px;
+  }
+
+  table tr:nth-child(4n) td {
+    background-color: rgb(160, 138, 183);
+  }
+
+  table tr:nth-child(4n+1) td {
+    background-color: rgb(160, 138, 183);
+  }
+
+th, td {
+  padding: 5px 10px;
+  border: 2px solid #4a4a4a;
+  text-align: center;
+}
+
+th {
+  background: #04af2f;
+}
+
 .fixed-nav {
     position: fixed;
     top: 0;
     right: 0;
     width: 100px;
     height: 100%;
-    background: #333;
-    color: #fff;
+    background: #104000;
+    color: #ffeded;
     padding: 20px;
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: -2px 0 5px rgba(37, 171, 0, 0.337);
 }
 
 .fixed-nav ul {
@@ -69,6 +131,6 @@ h1 {
 }
 
 .fixed-nav ul li a:hover {
-    background: #555;
+    background: #06810095;
     border-radius: 5px;
 }
